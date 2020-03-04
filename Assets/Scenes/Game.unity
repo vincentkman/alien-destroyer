@@ -133,9 +133,10 @@ GameObject:
   - component: {fileID: 21856451}
   - component: {fileID: 21856450}
   - component: {fileID: 21856449}
+  - component: {fileID: 21856453}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -214,6 +215,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &21856453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21856448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf38949fb264490f9bc4a1ba0c83996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 3.5
+  _laserPrefab: {fileID: 5596099797664605355, guid: 3072128539d6e47919613f534f9fd48b,
+    type: 3}
+  _fireRate: 0.15
 --- !u!1 &917841214
 GameObject:
   m_ObjectHideFlags: 0
